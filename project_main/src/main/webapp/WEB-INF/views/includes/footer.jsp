@@ -1,70 +1,70 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: dynii
-  Date: 2025-10-31
-  Time: 오후 2:55
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-</div>
 <!-- Footer -->
-<footer class="sticky-footer bg-white">
-    <div class="container my-auto">
-        <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Your Website 2021</span>
+<footer class="content-footer footer bg-footer-theme">
+    <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
+        <div class="mb-2 mb-md-0">
+            ©
+            <script>
+                document.write(new Date().getFullYear());
+            </script>
+            , made with ❤️ by
+            <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">ThemeSelection</a>
+        </div>
+        <div>
+            <a href="https://themeselection.com/license/" class="footer-link me-4" target="_blank">License</a>
+            <a href="https://themeselection.com/" target="_blank" class="footer-link me-4">More Themes</a>
+
+            <a
+                    href="https://themeselection.com/demo/sneat-bootstrap-html-admin-template/documentation/"
+                    target="_blank"
+                    class="footer-link me-4"
+            >Documentation</a
+            >
+
+            <a
+                    href="https://github.com/themeselection/sneat-html-admin-template-free/issues"
+                    target="_blank"
+                    class="footer-link me-4"
+            >Support</a
+            >
         </div>
     </div>
 </footer>
-<!-- End of Footer -->
+<!-- / Footer -->
 
+<div class="content-backdrop fade"></div>
 </div>
-<!-- End of Content Wrapper -->
-
+<!-- Content wrapper -->
 </div>
-<!-- End of Page Wrapper -->
-
-<!-- Scroll to Top Button-->
-<a class="scroll-to-top rounded" href="#page-top">
-    <i class="fas fa-angle-up"></i>
-</a>
-
-<!-- Logout Modal-->
-<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-     aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">×</span>
-                </button>
-            </div>
-            <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-            <div class="modal-footer">
-                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                <a class="btn btn-primary" href="login.html">Logout</a>
-            </div>
-        </div>
-    </div>
+<!-- / Layout page -->
 </div>
 
-<!-- Bootstrap core JavaScript-->
-<script src="/resources/vendor/jquery/jquery.min.js"></script>
-<script src="/resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Overlay -->
+<div class="layout-overlay layout-menu-toggle"></div>
+</div>
+<!-- / Layout wrapper -->
 
-<!-- Core plugin JavaScript-->
-<script src="/resources/vendor/jquery-easing/jquery.easing.min.js"></script>
+<!-- Core JS -->
+<!-- build:js assets/vendor/js/core.js -->
+<script src="assets/vendor/libs/jquery/jquery.js"></script>
+<script src="assets/vendor/libs/popper/popper.js"></script>
+<script src="assets/vendor/js/bootstrap.js"></script>
+<script src="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
 
-<!-- Custom scripts for all pages-->
-<script src="/resources/js/sb-admin-2.min.js"></script>
+<script src="assets/vendor/js/menu.js"></script>
+<!-- endbuild -->
 
-<!-- Page level plugins -->
-<script src="/resources/vendor/chart.js/Chart.min.js"></script>
+<!-- Vendors JS -->
+<script src="assets/vendor/libs/apex-charts/apexcharts.js"></script>
 
-<!-- Page level custom scripts -->
-<script src="/resources/js/demo/chart-area-demo.js"></script>
-<script src="/resources/js/demo/chart-pie-demo.js"></script>
+<!-- Main JS -->
+<script src="assets/js/main.js"></script>
 
+<!-- Page JS -->
+<script src="assets/js/dashboards-analytics.js"></script>
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 </html>
